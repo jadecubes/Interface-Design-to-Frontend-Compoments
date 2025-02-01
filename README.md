@@ -23,11 +23,15 @@ Facts about React Fiber Tree
 
 ## Introduction to Implementation of React Provider
 ✅ React maintains an internal structure (linked list or Map) to track context consumers.
+
 ✅ When a context value changes, React directly notifies the subscribed consumers (O(1) lookup).
+
 ✅ Efficient propagation ensures that only necessary components re-render.
+
 ✅ This design avoids full tree traversal and unnecessary updates.
 
 🎯 Bottom Line: React achieves O(1) context updates by maintaining a direct mapping between providers and consumers. 🚀
+
 ### Example
 Context Provider Stores a Reference to Consumers
 ```typescript
