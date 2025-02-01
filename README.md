@@ -21,14 +21,50 @@ Facts about React Fiber Tree
 ```
 
 
-```
-With a React context, how does the context update components that uses data in the outside context?
-The update includes 2 phases,
+## Introduction to Implementation of React Provider
+✅ React maintains an internal structure (linked list or Map) to track context consumers.
+✅ When a context value changes, React directly notifies the subscribed consumers (O(1) lookup).
+✅ Efficient propagation ensures that only necessary components re-render.
+✅ This design avoids full tree traversal and unnecessary updates.
 
+🎯 Bottom Line: React achieves O(1) context updates by maintaining a direct mapping between providers and consumers. 🚀
+### Example
+Context Provider Stores a Reference to Consumers
+```typescript
+const MyContext = createContext("default");
+
+const ProviderComponent = () => {
+  const [value, setValue] = useState("Hello");
+
+  return (
+    <MyContext.Provider value={value}>
+      <ChildComponent />
+    </MyContext.Provider>
+  );
+};
+
+const ChildComponent = () => {
+  const contextValue = useContext(MyContext);
+  return <p>{contextValue}</p>;
+};
 
 ```
+
+When ChildComponent calls useContext(MyContext), React links it to MyContext.Provider.
+The Provider maintains a list of subscribed consumers.
+
+```
+contextRegistry.set(MyContext, {
+  value: "Hello",
+  consumers: [ChildComponent],
+});
+
+```
+Context Map to track consumers, so direct lookup for consumers: O(1). From above explanation, the use of Contxt leads to extra memory consumptions, so only use Context when it's required.
 
 ## Let's Take a Requirement as an Example
+[Snapshot](./req.drawio)
+
 
 
 
