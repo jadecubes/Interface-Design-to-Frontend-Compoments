@@ -88,6 +88,15 @@
             <mxPoint x="-640" y="754.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0AHkL1NkAAU7y6veU0Tj-75" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-850" y="1553" as="sourcePoint" />
+            <mxPoint x="615" y="1553" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0AHkL1NkAAU7y6veU0Tj-76" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;Variation Product&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-990" y="1540" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
