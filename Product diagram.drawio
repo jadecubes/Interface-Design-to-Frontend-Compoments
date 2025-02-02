@@ -157,8 +157,8 @@
             <mxPoint x="710.5" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NzuWhhQHWhIVCc0WQvJV-3" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;variationCount, state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="488" y="170" width="211" height="30" as="geometry" />
+        <mxCell id="NzuWhhQHWhIVCc0WQvJV-3" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 18px;&quot;&gt;variationCount, state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="170" width="211" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NzuWhhQHWhIVCc0WQvJV-4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -166,11 +166,11 @@
             <mxPoint x="1010" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NzuWhhQHWhIVCc0WQvJV-5" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;selectedVariationCount, state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="435" width="211" height="30" as="geometry" />
+        <mxCell id="NzuWhhQHWhIVCc0WQvJV-5" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 18px;&quot;&gt;selectedVariationCount, state&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="435" width="241" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NzuWhhQHWhIVCc0WQvJV-6" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;Pagination, component&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="488" y="390" width="211" height="30" as="geometry" />
+        <mxCell id="NzuWhhQHWhIVCc0WQvJV-6" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 18px;&quot;&gt;Pagination, component&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="390" width="211" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NzuWhhQHWhIVCc0WQvJV-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -178,8 +178,8 @@
             <mxPoint x="760" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NzuWhhQHWhIVCc0WQvJV-8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 14px;&quot;&gt;VariationProduct, component&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="239" width="211" height="30" as="geometry" />
+        <mxCell id="NzuWhhQHWhIVCc0WQvJV-8" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-size: 18px;&quot;&gt;VariationProduct, component&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="239" width="251" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NzuWhhQHWhIVCc0WQvJV-9" value="" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
