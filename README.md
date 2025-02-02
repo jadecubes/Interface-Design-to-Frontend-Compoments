@@ -68,7 +68,7 @@ contextRegistry.set(MyContext, {
 Context Map to track consumers, so direct lookup for consumers: O(1). From above explanation, the use of Contxt leads to extra memory consumptions, so only use Context when it's required.
 
 ## Let's Practice with a Sample Requirement
-[Demo](./req.drawio)
+[Demo](./requirementdemo.gif)
 
 Create a dialog containing a table where the simple products, variation products and parent products display. User can select all products, some variation products in the table, or directly select parent products. The table needs to update selection information on the table parent product level and around the table.
 
