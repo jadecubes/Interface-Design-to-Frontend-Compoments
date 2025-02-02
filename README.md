@@ -70,7 +70,7 @@ Context Map to track consumers, so direct lookup for consumers: O(1). From above
 ## Let's Practice with a Sample Requirement
 [Demo](./requirementdemo.gif)
 
-[Demo](./req.svg)
+[Demo](./Product.diagram-requirement.drawio.png)
 
 Create a dialog containing a table where the simple products, variation products and parent products display. User can select all products, some variation products in the table, or directly select parent products. The table needs to update selection information on the table parent product level and around the table.
 
@@ -83,11 +83,8 @@ The relationship among simple products, variation products and parent products i
 ## Apply 3 principles to Sample Requirement
 1. List unit components
 As the initial step, briefly separate the user interface to be
-2. Find data dependency
-
-[Class diagram](./Product.diagram.drawio.png)
-
-4. Data sharing
+2. Find data dependency: By [class diagram](./Product.diagram.drawio.png), the product table's dependency is variation products.
+3. Data sharing
 
 
 
