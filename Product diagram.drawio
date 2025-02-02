@@ -87,7 +87,7 @@
             <mxPoint x="660" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="COmSVETjiCtXUdB53YvQ-11" value="" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="COmSVETjiCtXUdB53YvQ-11" value="" style="whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="830" y="110" width="360" height="440" as="geometry" />
         </mxCell>
         <mxCell id="COmSVETjiCtXUdB53YvQ-12" value="Checked Parent Product" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
