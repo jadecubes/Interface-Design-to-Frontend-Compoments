@@ -10,7 +10,7 @@
         <mxCell id="COmSVETjiCtXUdB53YvQ-1" value="" style="whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=#314354;fontColor=#ffffff;" parent="COmSVETjiCtXUdB53YvQ-33" vertex="1">
           <mxGeometry width="507.85714285714283" height="820.0000000000002" as="geometry" />
         </mxCell>
-        <mxCell id="COmSVETjiCtXUdB53YvQ-2" value="&lt;h1&gt;Different Type of Products&amp;nbsp;&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="COmSVETjiCtXUdB53YvQ-33" vertex="1">
+        <mxCell id="COmSVETjiCtXUdB53YvQ-2" value="&lt;h1&gt;Product Types&lt;/h1&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="COmSVETjiCtXUdB53YvQ-33" vertex="1">
           <mxGeometry x="42.32142857142857" y="55.90909090909092" width="437.3214285714286" height="93.18181818181819" as="geometry" />
         </mxCell>
         <mxCell id="COmSVETjiCtXUdB53YvQ-3" value="All Products" style="rounded=0;whiteSpace=wrap;html=1;" parent="COmSVETjiCtXUdB53YvQ-33" vertex="1">
