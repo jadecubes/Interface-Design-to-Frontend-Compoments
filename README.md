@@ -85,7 +85,7 @@ The relationship among simple products, variation products and parent products i
 As the initial step, briefly separate the user interface to be
 2. Find data dependency
 
-[Class diagram](./Product diagram.drawio.png)
+[Class diagram](./Product.diagram.drawio.png)
 
 4. Data sharing
 
