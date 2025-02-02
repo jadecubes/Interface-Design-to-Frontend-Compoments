@@ -69,6 +69,7 @@ Context Map to track consumers, so direct lookup for consumers: O(1). From above
 
 ## Let's Practice with a Sample Requirement
 [Demo](./requirementdemo.gif)
+
 [Demo](./req.svg)
 Create a dialog containing a table where the simple products, variation products and parent products display. User can select all products, some variation products in the table, or directly select parent products. The table needs to update selection information on the table parent product level and around the table.
 
