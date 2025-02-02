@@ -3,7 +3,8 @@
 It's a common scinario that a front-end developer need to design user interface components based design on Figma. However, complicated interface can confuse developers from observing data dependencies. So, I suggest that 3 key principles can be applied when a fronend developer needs to plan his implementation.
 
 ## What Are the 3 Principles
-1. Find unit components
+[Frontend component changes depend on data changes.](https://dev.to/basal/data-oriented-frontend-development-1mk3) So it's crucial for frontend developers to correctly and clearly identify which data driving component display changes on user interface. The 3 principles are designed to help frontend developers to better find correct data dependencies.
+1. List unit components
 2. Find data dependency: sometimes, data dependency is not obvious, we can figure that out by class diagrams.
 3. Data sharing: if there are multiple layers of components that need to share the same data, React provider is the most suitable option. Howerver, in situations where only few props need to be shared with a few components, applying data to props and using props for data passing is enough.
 
@@ -66,7 +67,7 @@ contextRegistry.set(MyContext, {
 ```
 Context Map to track consumers, so direct lookup for consumers: O(1). From above explanation, the use of Contxt leads to extra memory consumptions, so only use Context when it's required.
 
-## Let's Take a Requirement as an Example
+## Let's Practice with a Sample Requirement
 [Demo](./req.drawio)
 
 Create a dialog containing a table where the simple products, variation products and parent products display. User can select all products, some variation products in the table, or directly select parent products. The table needs to update selection information on the table parent product level and around the table.
@@ -77,7 +78,9 @@ The relationship among simple products, variation products and parent products i
 - A product is the product containing variation products
 
 
-
+## Apply 3 principles to Sample Requirement
+1. List unit components
+As the initial step, briefly separate the user interface to be 
 
 
 
