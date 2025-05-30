@@ -1,4 +1,4 @@
-# Decomposition to Frontend Interface Design
+# Principles to Decomposition of Frontend Interface Design
 ## Why
 It's a common scinario that a front-end developer need to design user interface components based design on Figma. However, complicated interface can confuse developers from observing data dependencies. So, I suggest that 3 key principles can be applied when a fronend developer needs to plan his implementation.
 
