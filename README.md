@@ -83,7 +83,7 @@ The relationship among simple products, variation products and parent products i
 ## Apply 3 principles to Sample Requirement
 1. List unit components: as the initial step, briefly separate the user interface to be [initial analysis](./Product.diagram-initialComponents.drawio.png)
 2. Find data dependency: by [class diagram](./Product.diagram-Class.diagram.drawio.png), the product table's dependency is variation products.
-3. Data sharing: use provider component to chare the count of selected variations.
+3. Data sharing: with provider component, share the count of selected variations with different components.
 
 
 
